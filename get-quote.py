@@ -14,5 +14,8 @@ def main():
     print(quotes[rnd])
 
 
+rndx = random.randint(1, 5)
+
 if __name__ == "__main__":
-    main()
+    for _ in range(rndx):
+        main()
