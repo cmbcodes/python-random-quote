@@ -1,7 +1,7 @@
 import random
 
 
-def major():
+def main():
     # print("Keep it logically awesome.")
 
     f = open("quotes.txt")
@@ -15,4 +15,4 @@ def major():
 
 
 if __name__ == "__main__":
-    major()
+    main()
